@@ -26,6 +26,14 @@ class ProductSeeder extends Seeder
             'description' => 'Good Bag',
             'image' => 'https://images.unsplash.com/photo-1491637639811-60e2756cc1c7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=669&q=80'
         ]);
+
+        Product::create([
+            'name' => 'Bag',
+            'price' => 350,
+            'description' => 'Good Bag',
+            'image' => 'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80'
+        ]);
+
         Product::create([
             'name' => 'perfume',
             'price' => 100,
@@ -45,6 +53,13 @@ class ProductSeeder extends Seeder
             'price' => 600,
             'description' => 'Good laptop',
             'image' => 'https://images.unsplash.com/photo-1490135900376-2e86d918a23b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDh8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60'
+        ]);
+
+        Product::create([
+            'name' => 'laptop',
+            'price' => 50,
+            'description' => 'Good laptop',
+            'image' => 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80'
         ]);
 
         Product::create([
